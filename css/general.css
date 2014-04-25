@@ -89,40 +89,35 @@ p {
     font-weight: normal;
 }
 
-figure {
-    margin: 0 auto 1.5rem;
-    width: 100%;
-}
-
-figcap {
-    margin-top: 3rem;   
-}
-
-.media1 {
-    padding: 0;
+.bucket2 {
     margin: 0;
-    display: inline;
-    width: 20%;
-    bottom: -1rem;
-    float:left
+    padding: 0;
+    overflow: hidden;
+    list-style: none;
+    background-color: none;
 }
 
-.media2 {
+.bucket2 li {
+    float: left;
+    width: 30%;
+    margin: 0 5% 1.5rem 0;
     padding: 0;
-    margin: 0 20%;
-    display: inline;
-    width: 20%;
-    bottom: -1rem;
-    
 }
 
-.media3 {
-    padding: 0;
-    margin: 0 auto;
-    display: inline;
-    width: 20%;
-    bottom: -1rem;
-    float:right;
+.bucket2 li:nth-child(3) {
+    margin: 0;
+}
+
+.bucket2 a,
+.bucket2 a:link,
+.bucket2 a:visited {
+    display: block;
+    background-size: 100%;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-color: none;
+    margin: 0;
+    padding: 100% 0 0; /* height of image ÷ by width = % */
 }
 
 footer {
