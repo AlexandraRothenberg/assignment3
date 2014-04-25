@@ -1,0 +1,147 @@
+@charset "utf-8";
+
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+
+    font-size: 100%;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+img {
+	width: 100%;
+    display: block;
+}
+
+header{
+    background-image: url(../images/dots.svg);
+    background-size: 1.25rem;
+}
+
+.logo {
+    width: auto;
+    height: 4rem;
+    float: left;
+    margin: 2rem 6%;
+}
+
+.nav-top {
+    clear:both;
+}
+
+.nav-top ul {
+    margin: 0;
+    padding: 0;
+    background-color: #F7EC34;
+    text-align: center;
+}
+
+.nav-top li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-top a,
+.nav-top a:link,
+.nav-top a:visited {
+    display: inline-block;
+    margin: 0;
+    padding: 1.5rem 10%;
+    color: white;
+    font-size: 1.25rem;
+    text-decoration: none;
+}
+.selected {
+    background-color: #F7AA43;
+}
+
+article {
+    margin: 0;
+    padding: 1.5rem 5%;
+}
+
+h1 {
+    margin: 0 0 1.5rem;
+    padding: 0;
+    font-size: 2rem;
+}
+
+p {
+    margin 0 0 1.5rem;
+    padding: 0;
+    font-family: "Times New Roman", serif;
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+figure {
+    margin: 0 auto 1.5rem;
+    width: 100%;
+}
+
+figcap {
+    margin-top: 3rem;   
+}
+
+.media1 {
+    padding: 0;
+    margin: 0;
+    display: inline;
+    width: 20%;
+    bottom: -1rem;
+    float:left
+}
+
+.media2 {
+    padding: 0;
+    margin: 0 20%;
+    display: inline;
+    width: 20%;
+    bottom: -1rem;
+    
+}
+
+.media3 {
+    padding: 0;
+    margin: 0 auto;
+    display: inline;
+    width: 20%;
+    bottom: -1rem;
+    float:right;
+}
+
+footer {
+    margin: 0;
+    padding: 1.5rem 5% 3rem;
+    background-color: #F7EC34;
+}
+
+.nav-bottom ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bottom a,
+.nav-bottom a:link,
+.nav-bottom a:visited {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    line-height: 2rem;
+}
